@@ -1,0 +1,26 @@
+# conda env create --file environment.yml
+name: car_price_assignment
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - matplotlib
+  - numpy
+  - pandas
+  - pandas-flavor
+  - pandas-profiling
+  - pip
+  - pyprojroot
+  - python=3.9
+  - seaborn
+  - openpyxl
+  - statsmodels
+  - missingno
+  - pip:
+    - pyhere
+    
